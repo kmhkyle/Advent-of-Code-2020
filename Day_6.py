@@ -8,9 +8,7 @@ for line in content:
 
 for group in groupAnswers:
     groupList = group.split()
-    answerCheck =''
-    for letter in groupList[0]:
-        answerCheck += letter
+    answerCheck = groupList[0]
     for i in range(1, len(groupList)):
         for letter in answerCheck:
             if letter not in groupList[i]:
