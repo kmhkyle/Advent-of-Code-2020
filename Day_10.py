@@ -27,4 +27,4 @@ def countways(adapters, start, goal):
     memo[k] = ways
     return ways
 
-print(countways(sorted(content), 0, max(content) + 3))
+print(countways(content, 0, max(content) + 3))
